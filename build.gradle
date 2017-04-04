@@ -1,1 +1,3 @@
-println project.ext["teamcity.build.branch"]
+task printProperty << {
+    println "${project.ext['teamcity.build.id']}"
+}
