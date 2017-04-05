@@ -1,1 +1,1 @@
-println "${project.ext['system.teamcity.version']}"
+println "${project.ext['teamcity.version']}"
