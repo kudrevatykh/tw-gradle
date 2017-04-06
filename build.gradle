@@ -1,1 +1,1 @@
-println "${project.ext['teamcity.build.properties.file']}"
+println "${project.ext['teamcity.build.branch']}"
